@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 
 import "./App.css";
-import Body from "./components/pages/Body";
+import NavBar from "./components/pages/NavBar";
+import BodyRBG from "./components/pages/BodyRBG";
+import Footer from "./components/pages/Footer";
+
 
 
 class App extends Component {
@@ -9,8 +12,9 @@ class App extends Component {
     return (
       <div className="App">
       <div id="wrapper">
-
-      <Body />
+      <NavBar />
+      <BodyRBG />
+      <Footer />
       </div>
       </div>
     );

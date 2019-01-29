@@ -12,7 +12,7 @@ const Tiles = () => {
                 <section className="tiles">
                     <article className="style1">
                         <span className="image">
-                            <img src="images/pic01.jpg" alt="" />
+                            <img src="images/adprofile.jpg" alt="" style= {{width:"500px", height:"300px"}} />
                         </span>
                         <a href="generic.html">
                             <h2>Magna</h2>
@@ -23,7 +23,7 @@ const Tiles = () => {
                     </article>
                     <article className="style2">
                         <span className="image">
-                            <img src="images/pic02.jpg" alt="" />
+                            <img src="images/eleanor_portrait.jpg" alt="" style= {{width:"400px", height:"300px"}} />
                         </span>
                         <a href="generic.html">
                             <h2>Lorem</h2>
@@ -34,7 +34,7 @@ const Tiles = () => {
                     </article>
                     <article className="style3">
                         <span className="image">
-                            <img src="images/pic03.jpg" alt="" />
+                            <img src="images/fkside.jpg" alt="" style= {{width:"400px", height:"300px"}} />
                         </span>
                         <a href="generic.html">
                             <h2>Feugiat</h2>
@@ -45,7 +45,7 @@ const Tiles = () => {
                     </article>
                     <article className="style4">
                         <span className="image">
-                            <img src="images/pic04.jpg" alt="" />
+                            <img src="images/mcProfile.jpg" alt="" style= {{width:"350px", height:"300px"}} />
                         </span>
                         <a href="generic.html">
                             <h2>Tempus</h2>
@@ -56,7 +56,7 @@ const Tiles = () => {
                     </article>
                     <article className="style5">
                         <span className="image">
-                            <img src="images/pic05.jpg" alt="" />
+                            <img src="images/gsprofile.jpg" alt="" style= {{width:"400px", height:"300px"}}  />
                         </span>
                         <a href="generic.html">
                             <h2>Aliquam</h2>
@@ -67,7 +67,7 @@ const Tiles = () => {
                     </article>
                     <article className="style6">
                         <span className="image">
-                            <img src="images/pic06.jpg" alt="" />
+                            <img src="images/queenp.jpg" alt="" style= {{width:"350px", height:"300px"}} />
                         </span>
                         <a href="generic.html">
                             <h2>Veroeros</h2>
@@ -78,7 +78,7 @@ const Tiles = () => {
                     </article>
                     <article className="style2">
                         <span className="image">
-                            <img src="images/pic07.jpg" alt="" />
+                            <img src="images/rsprofile.jpg" alt="" style= {{width:"460px", height:"300px"}}  />
                         </span>
                         <a href="generic.html">
                             <h2>Ipsum</h2>
@@ -89,7 +89,7 @@ const Tiles = () => {
                     </article>
                     <article className="style3">
                         <span className="image">
-                            <img src="images/pic08.jpg" alt="" />
+                            <img src="images/saprofile.jpg" alt="" style= {{width:"350px", height:"300px"}}  />
                         </span>
                         <a href="generic.html">
                             <h2>Dolor</h2>

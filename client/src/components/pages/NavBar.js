@@ -7,7 +7,7 @@ const NavBar = () => {
 						<div className="inner">
 
 								<a href="index.html" className="logo">
-									<span className="symbol"><img src="images/logo.svg" alt="" /></span><span className="title">Reclaiming Pink</span>
+									<span className="symbol"></span><span className="title">Reclaiming Pink</span>
 								</a>
 								<nav>
 									<ul>
@@ -21,10 +21,9 @@ const NavBar = () => {
 						<h2>Menu</h2>
 						<ul>
 							<li><a href="index.html">Home</a></li>
-							<li><a href="generic.html">Ipsum veroeros</a></li>
-							<li><a href="generic.html">Tempus etiam</a></li>
-							<li><a href="generic.html">Consequat dolor</a></li>
-							<li><a href="elements.html">Elements</a></li>
+							<li><a href="generic.html">Games</a></li>
+							<li><a href="generic.html">Shop</a></li>
+							<li><a href="generic.html">Login</a></li>
 						</ul>
 					</div><a className="close" href="#menu">Close</a></nav>
     </div>
