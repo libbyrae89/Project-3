@@ -2,10 +2,8 @@ import React, { Component } from "react";
 
 import "./App.css";
 import NavBar from "./components/pages/NavBar";
-import BodyRBG from "./components/pages/BodyRBG";
+import BodyGS from "./components/pages/BodyGS";
 import Footer from "./components/pages/Footer";
-
-
 
 class App extends Component {
   render() {
@@ -13,7 +11,7 @@ class App extends Component {
       <div className="App">
       <div id="wrapper">
       <NavBar />
-      <BodyRBG />
+      <BodyGS />
       <Footer />
       </div>
       </div>

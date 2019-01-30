@@ -34,7 +34,7 @@ const Tiles = () => {
                     </article>
                     <article className="style3">
                         <span className="image">
-                            <img src="images/fkside.jpg" alt="" style= {{width:"400px", height:"300px"}} />
+                            <img src="images/fkside.jpg" alt="" style= {{width:"350px", height:"300px"}} />
                         </span>
                         <a href="generic.html">
                             <h2>Feugiat</h2>
