@@ -7,7 +7,7 @@ const BodyGS = () => {
             
                 <a href="" className="logo">
                  <span className="symbol"></span><span className="title">
-                 <h2> Angela Davis</h2></span>
+                 <h2>Gloria Steinem</h2></span>
                   </a>
                 <span className="image left"><img src="images/gloriaChild.jpg" alt="" style= {{width:"250px", height:"40%"}} ></img></span>
                 <p align="left">Born on March 25, 1934, in Toledo, Ohio. Since the late 1960s, Gloria Steinem has been an outspoken champion of women’s rights. She had an unusual upbringing, spending part of the year in Michigan and the winters in Florida or California. With all this traveling, Steinem did not attend school on a regular basis until she was 11.</p>

@@ -2693,7 +2693,7 @@ input, select, textarea {
 					}
 		
 					.tiles article.style2 > .image:before {
-						background-color: #E8B585;
+						background-color: #FCA7B0;
 					}
 		
 					.tiles article.style3 > .image:before {
@@ -2710,7 +2710,7 @@ input, select, textarea {
 					}
 		
 					.tiles article.style6 > .image:before {
-						background-color: #FCA7B0;
+						background-color: #E8B585;
 					}
 			body:not(.is-touch) .tiles article:hover > .image {
 				-moz-transform: scale(1.1);
