@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 
 import "./App.css";
-import NavBar from "./components/pages/NavBar";
-import Tiles from "./components/pages/Tiles";
-
+import Login from "./components/pages/Login";
 
 
 class App extends Component {
@@ -11,9 +9,7 @@ class App extends Component {
     return (
       <div className="App">
       <div id="wrapper">
-      <NavBar />
-      <Tiles />
-     
+      <Login />
       </div>
       </div>
     );
