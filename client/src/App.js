@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 
 import "./App.css";
-import NavBar from "./components/pages/NavBar";
-import Tiles from "./components/pages/Tiles";
+import BodyGS from "./components/pages/BodyGS";
 
 
 
@@ -11,8 +10,7 @@ class App extends Component {
     return (
       <div className="App">
       <div id="wrapper">
-      <NavBar />
-      <Tiles />
+      <BodyGS />
      
       </div>
       </div>
