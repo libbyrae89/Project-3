@@ -11,8 +11,7 @@ class App extends Component {
       <div className="App">
       <div id="wrapper">
       <BodyGS />
-     
-      </div>
+     </div>
       </div>
     );
   }
