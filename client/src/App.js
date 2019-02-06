@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 
 import "./App.css";
-import Login from "./components/pages/Login";
+import BodyGS from "./components/pages/BodyGS";
+
 
 
 class App extends Component {
@@ -9,8 +10,8 @@ class App extends Component {
     return (
       <div className="App">
       <div id="wrapper">
-      <Login />
-      </div>
+      <BodyGS />
+     </div>
       </div>
     );
   }
