@@ -22,7 +22,7 @@ const NavBar = () => {
 						<ul>
 							<li><a href="index.html">Home</a></li>
 							<li><a href="generic.html">Games</a></li>
-							<li><a href="generic.html">Shop</a></li>
+							<li><a href="generic.html">Donate</a></li>
 							<li><a href="generic.html">Login</a></li>
 						</ul>
 					</div><a className="close" href="#menu">Close</a></nav>
