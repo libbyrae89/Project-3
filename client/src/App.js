@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 
 import "./App.css";
-import Jumbotron2 from "./components/pages/Jumbotron2";
-import Donatepage from "./components/pages/Donatepage";
-import Paypal from "./components/pages/Paypal";
-import Footer from "./components/pages/Footer";
+
+import NavBar from "./components/pages/NavBar";
+import BodyRP from "./components/pages/BodyRP";
 
 
 
@@ -14,14 +13,11 @@ class App extends Component {
 
     return (
       <div className="App">
-      <div id="wrapper">
+        <div id="wrapper">
+          <NavBar />
+          <BodyRP />
 
-   <Jumbotron2 />
-   <Donatepage />
-   <Paypal />
-    <Footer />
-      
-     </div>
+        </div>
       </div>
     );
   }
