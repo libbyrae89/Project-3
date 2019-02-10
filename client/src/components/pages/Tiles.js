@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from 'react-router-dom'
 const Tiles = () => {
     return (
         <div id="main">
@@ -10,138 +10,151 @@ const Tiles = () => {
                     <p>Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit amet nullam dolore.</p>
                 </header>
                 <section className="tiles">
+
                     <article className="style1">
                         <span className="image">
                             <img src="images/MAhat.jpg" alt="" style= {{width:"500px", height:"300px"}} />
                         </span>
-                        <a href="generic.html">
+                        <Link to='/mustafa'>
                             <h2>Mustafa</h2>
                             <div className="content">
                                 <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
                             </div>
-                        </a>
+                        </Link>
                     </article>
+
                     <article className="style2">
                         <span className="image">
                             <img src="images/eleanor_portrait.jpg" alt="" style= {{width:"350px", height:"300px"}} />
                         </span>
-                        <a href="generic.html">
+                        <Link to="/eleanor">
                             <h2>Eleanor</h2>
                             <div className="content">
                                 <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
                             </div>
-                        </a>
+                        </Link>
                     </article>
+
                     <article className="style3">
                         <span className="image">
                             <img src="images/fkside.jpg" alt="" style= {{width:"350px", height:"300px"}} />
                         </span>
-                        <a href="generic.html">
+                        <Link to="/frida">
                             <h2>Frida</h2>
                             <div className="content">
                                 <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
                             </div>
-                        </a>
+                        </Link>
                     </article>
+
                     <article className="style4">
                         <span className="image">
                             <img src="images/NMProfile.jpg" alt="" style= {{width:"450px", height:"300px"}} />
                         </span>
-                        <a href="generic.html">
+                        <Link to="/nelson">
                             <h2>Nelson</h2>
                             <div className="content">
                                 <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
                             </div>
-                        </a>
+                        </Link>
                     </article>
+
                     <article className="style5">
                         <span className="image">
                             <img src="images/gsprofile.jpg" alt="" style= {{width:"400px", height:"300px"}}  />
                         </span>
-                        <a href="generic.html">
+                        <Link to="/gloria">
                             <h2>Gloria</h2>
                             <div className="content">
                                 <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
                             </div>
-                        </a>
+                        </Link>
                     </article>
+
                     <article className="style6">
                         <span className="image">
                             <img src="images/queenp.jpg" alt="" style= {{width:"318px", height:"300px"}} />
                         </span>
-                        <a href="generic.html">
+                        <Link to="/queen">
                             <h2>Queen Elizabeth</h2>
                             <div className="content">
                                 <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
                             </div>
-                        </a>
+                        </Link>
                     </article>
+
                     <article className="style1">
                         <span className="image">
                             <img src="images/rsprofile.jpg" alt="" style= {{width:"460px", height:"300px"}}  />
                         </span>
-                        <a href="generic.html">
+                        <Link to="/rosa">
                             <h2>Rosa</h2>
                             <div className="content">
                                 <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
                             </div>
-                        </a>
+                        </Link>
                     </article>
+
                     <article className="style3">
                         <span className="image">
                             <img src="images/saprofile.jpg" alt="" style= {{width:"320px", height:"300px"}}  />
                         </span>
-                        <a href="generic.html">
+                        <Link to="/susan">
                             <h2>Susan</h2>
                             <div className="content">
                                 <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
                             </div>
-                        </a>
+                        </Link>
                     </article>
+
                     <article className="style1">
                         <span className="image">
                             <img src="images/MGprofile.jpg" alt=""  style= {{width:"320px", height:"300px"}} />
                         </span>
-                        <a href="generic.html">
+                        <Link to="/marty">
                             <h2>Marty</h2>
                             <div className="content">
                                 <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
                             </div>
-                        </a>
+                        </Link>
                     </article>
+
                     <article className="style5">
                         <span className="image">
                             <img src="images/RBGside.jpg" alt="" style= {{width:"320px", height:"300px"}} />
                         </span>
-                        <a href="generic.html">
+                        <Link to="/ruth">
                             <h2>Ruth</h2>
                             <div className="content">
                                 <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
                             </div>
-                        </a>
+                        </Link>
                     </article>
+
                     <article className="style6">
                         <span className="image">
                             <img src="images/adprofile.jpg" alt="" style= {{width:"460px", height:"300px"}}/>
                         </span>
-                        <a href="generic.html">
+                        <Link to="/angela">
                             <h2>Angela</h2>
                             <div className="content">
                                 <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
                             </div>
-                        </a>
+                        </Link>
                     </article>
+
                     <article className="style4">
                         <span className="image">
                             <img src="images/mcProfile.jpg" alt="" style= {{width:"320px", height:"300px"}} />
                         </span>
-                        <a href="generic.html">
+                        <Link to="/marie">
                             <h2>Marie</h2>
                             <div className="content">
                                 <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
                             </div>
-                        </a>
+                        </Link>
                     </article>
+
                 </section>
             </div>
         </div>
