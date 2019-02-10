@@ -4,9 +4,15 @@
   "private": true,
   "proxy": "http://localhost:3001/",
   "dependencies": {
+    "axios": "^0.18.0",
+    "material-ui": "^0.20.2",
     "react": "^16.6.3",
+    "react-async-script-loader": "^0.3.0",
     "react-dom": "^16.6.3",
-    "react-scripts": "^2.1.1"
+    "react-dropzone": "^8.0.4",
+    "react-paypal-express-checkout": "^1.0.5",
+    "react-scripts": "^2.1.1",
+    "superagent": "^4.1.0"
   },
   "scripts": {
     "start": "react-scripts start",

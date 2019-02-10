@@ -1,11 +1,7 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
 
-/*
-	Phantom by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -3310,3 +3306,224 @@ input, select, textarea {
 			}
 
 		}
+		/* Header */
+
+#header1 {
+	position: relative;
+	margin: 0;
+	background-image: url("images/overlay.png"), url("../../images/jumbtron.jpg");
+	background-size: auto, cover;
+	background-position: top left, center center;
+	background-repeat: repeat, no-repeat;
+	padding: 14em 0 14em 0;
+	text-align: center;
+	color: #fff;
+}
+
+	#header header h1 {
+		font-size: 2.25em;
+		line-height: 1.25em;
+		margin-bottom: 0;
+	}
+
+	#header header p {
+		margin-top: 1.25em;
+		font-weight: 100;
+		padding: 0;
+		font-size: 1.25em;
+		line-height: 1.5em;
+		text-align: center;
+	}
+
+	#header footer {
+		padding-top: 1.5em;
+	}
+/* Wrappers */
+
+.wrapper {
+	position: relative;
+	background: #fff;
+	overflow-x: hidden;
+	padding: 6em 0 6em 0;
+}
+
+.image-wrapper {
+	position: relative;
+}
+
+	.image-wrapper .image {
+		position: relative;
+		z-index: 2;
+	}
+
+	.image-wrapper.first:before {
+		content: '';
+		display: block;
+		width: 2000%;
+		height: 100%;
+		position: absolute;
+		left: -1000%;
+		top: 0;
+		z-index: 1;
+		box-shadow: inset 0px 0px 0px 1px #e8e8e8;
+		background: #f6f8fb url("images/image-wrapper.svg");
+	}
+
+#header-wrapper {
+	position: relative;
+	padding: 4em 0 2em 0;
+	background-image: url("images/header.svg");
+	background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+	background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+	background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+	background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+	background-color: #f08c89;
+	background-size: 100% 620%;
+	background-size: 128px 128px, 100% 620%, auto;
+	background-repeat: repeat, no-repeat, no-repeat;
+}
+
+.homepage #header-wrapper {
+	padding: 10em 0 6em 0;
+	background-size: 128px 128px, 100% 100%, auto;
+}
+
+#promo-wrapper {
+	position: relative;
+	background-image: url("images/overlay.png"), url("../../images/promo.jpg");
+	background-size: 192px 192px, cover;
+	background-position: top left, center center;
+	color: #fff;
+	text-align: center;
+	padding: 6em 0 6em 0;
+}
+
+#footer-wrapper {
+	-webkit-transform: translate3d(0, 0, 0);
+	position: relative;
+	border-top: solid 1px #c2c7cc;
+	padding: 6em 0 6em 0;
+	background-image: url("images/overlay.png"), url("images/footer.svg");
+	background-size: 128px 128px,				100% 100%;
+}
+
+.row1 {
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	align-items: stretch;
+}
+
+	.row1 > * {
+		box-sizing: border-box;
+	}
+
+	.row1.gtr-uniform > * > :last-child {
+		margin-bottom: 0;
+	}
+
+	.row1.aln-left {
+		justify-content: flex-start;
+	}
+
+	.row1.aln-center {
+		justify-content: center;
+	}
+
+	.row1.aln-right {
+		justify-content: flex-end;
+	}
+
+	.row1.aln-top {
+		align-items: flex-start;
+	}
+
+	.row1.aln-middle {
+		align-items: center;
+	}
+
+	.row1.aln-bottom {
+		align-items: flex-end;
+	}
+
+	.row1 > .imp {
+		order: -1;
+	}
+.row1 > .col-6 {
+	width: 50%;
+}
+
+.row1 > .off-6 {
+	margin-left: 50%;
+}
+.image {
+	display: block;
+}
+
+	.image.full, .image.left {
+		float: none;
+		display: block;
+		width: 100%;
+		margin: 0 0 1.5em 0;
+	}
+
+.image-centered {
+	float: none;
+	display: block;
+	width: 100%;
+	margin: 0 0 1.5em 0;
+}
+.Game {
+	text-align: center;
+  }
+  
+  .Game-header {
+	background-color: #222;
+	height: 50px;
+	padding: 20px;
+	color: white;
+  }
+  
+  .Game-title {
+	font-size: 1.5em;
+  }
+  
+  .Game-status {
+	padding: 20px;  
+  }
+  
+  .Game-intro {
+	font-size: large;
+  }
+  
+  .Card {
+	display: inline-block;
+	border-color: white;
+	border-width: 5px;
+	border-style: solid;
+	margin-bottom: 10px;      
+	margin-left: 10px;  
+	width: 100px;    
+  }
+  
+  .Matched {
+	border-color: #55cc88;
+  }
+  
+  .CardContainer {
+	display: inline-block;
+	max-width: 950px;
+	margin: '20px auto';
+  }
+  #jumbotron {
+	position: relative;
+	margin: 0;
+	background-image: url("images/overlay.png"), url("../../images/donate.jpg");
+	background-size: auto, cover;
+	background-position: top left, center center;
+	background-repeat: repeat, no-repeat;
+	padding: 14em 0 14em 0;
+	text-align: center;
+	color: #fff;
+}
+		
