@@ -5,9 +5,8 @@ const Tiles = () => {
         <div id="main">
             <div className="inner">
                 <header>
-                    <h1>This is Phantom, a free, fully responsive site<br />
-                        template designed by <a href="http://html5up.net"></a>.</h1>
-                    <p>Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit amet nullam dolore.</p>
+                    <h1>noun: a movement that smashes gender stereotypes and illustrates that women and men
+                    are equally capable of being leaders, innovators, and catalysts for change.</h1>
                 </header>
                 <section className="tiles">
                     <article className="style1">
@@ -17,18 +16,18 @@ const Tiles = () => {
                         <a href="generic.html">
                             <h2>Mustafa</h2>
                             <div className="content">
-                                <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+                                <p>A former president of Turkey who mandated the compulsory education of women and gave them equal rights.</p>
                             </div>
                         </a>
                     </article>
                     <article className="style2">
                         <span className="image">
-                            <img src="images/eleanor_portrait.jpg" alt="" style= {{width:"350px", height:"300px"}} />
+                            <img src="images/eleanor_portrait.jpg" alt="" style= {{width:"320px", height:"300px"}} />
                         </span>
                         <a href="generic.html">
                             <h2>Eleanor</h2>
                             <div className="content">
-                                <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+                                <p>A former First Lady that became known for being a strong advocate for human and civil rights.</p>
                             </div>
                         </a>
                     </article>
@@ -39,7 +38,7 @@ const Tiles = () => {
                         <a href="generic.html">
                             <h2>Frida</h2>
                             <div className="content">
-                                <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+                                <p>An artist from Mexico known for her unique self-portraits and depiction of the female experience and form.</p>
                             </div>
                         </a>
                     </article>
@@ -50,7 +49,7 @@ const Tiles = () => {
                         <a href="generic.html">
                             <h2>Nelson</h2>
                             <div className="content">
-                                <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+                                <p>A former President of South Africa who rewrote the country’s constitution to establish one of the most comprehensive set of women’s rights in the world.</p>
                             </div>
                         </a>
                     </article>
@@ -61,7 +60,7 @@ const Tiles = () => {
                         <a href="generic.html">
                             <h2>Gloria</h2>
                             <div className="content">
-                                <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+                                <p>A leader and spokeswoman for the American feminist movement in the late 1960s and early 1970s.</p>
                             </div>
                         </a>
                     </article>
@@ -72,7 +71,7 @@ const Tiles = () => {
                         <a href="generic.html">
                             <h2>Queen Elizabeth</h2>
                             <div className="content">
-                                <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+                                <p>A historical queen of England who is known for refusing to get married in a time when women were barely considered property .</p>
                             </div>
                         </a>
                     </article>
@@ -83,18 +82,18 @@ const Tiles = () => {
                         <a href="generic.html">
                             <h2>Rosa</h2>
                             <div className="content">
-                                <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+                                <p>A tenacious woman who refused to give up her bus seat to a white man, thus sparking the Montgomery Bus Boycott .</p>
                             </div>
                         </a>
                     </article>
                     <article className="style3">
                         <span className="image">
-                            <img src="images/saprofile.jpg" alt="" style= {{width:"320px", height:"300px"}}  />
+                            <img src="images/saprofile.jpg" alt="" style= {{width:"315px", height:"300px"}}  />
                         </span>
                         <a href="generic.html">
                             <h2>Susan</h2>
                             <div className="content">
-                                <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+                                <p>A political rights activist who played a pivotal role in the women’s suffrage movement.</p>
                             </div>
                         </a>
                     </article>
@@ -105,7 +104,7 @@ const Tiles = () => {
                         <a href="generic.html">
                             <h2>Marty</h2>
                             <div className="content">
-                                <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+                                <p>A prominent tax attorney made famous by his wife, the Notorious RBG, and his belief in proto-feminism.</p>
                             </div>
                         </a>
                     </article>
@@ -116,7 +115,7 @@ const Tiles = () => {
                         <a href="generic.html">
                             <h2>Ruth</h2>
                             <div className="content">
-                                <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+                                <p>A current Supreme Court Justice who has fought tirelessly to give voices to the voiceless since taking her seat as a Justice in 1993.</p>
                             </div>
                         </a>
                     </article>
@@ -127,18 +126,18 @@ const Tiles = () => {
                         <a href="generic.html">
                             <h2>Angela</h2>
                             <div className="content">
-                                <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+                                <p>A radical activist that has tirelessly advocated for gender equity, prison reform, and alliances across color lines.</p>
                             </div>
                         </a>
                     </article>
                     <article className="style4">
                         <span className="image">
-                            <img src="images/mcProfile.jpg" alt="" style= {{width:"320px", height:"300px"}} />
+                            <img src="images/mcProfile.jpg" alt="" style= {{width:"315px", height:"300px"}} />
                         </span>
                         <a href="generic.html">
                             <h2>Marie</h2>
                             <div className="content">
-                                <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+                                <p>A Nobel Prize winner known for her work in chemistry and psychics.</p>
                             </div>
                         </a>
                     </article>

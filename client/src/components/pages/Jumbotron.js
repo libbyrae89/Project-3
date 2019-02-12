@@ -3,9 +3,12 @@ import React from 'react';
 const Jumbotron = () => {
     return(
         <div>
-			<section id="header" className="dark">
+			<section id="header1" className="dark">
 				<header>
-					<h1>Welcome to Tessellate</h1>
+				<a href="" className="logo">
+                 <span className="symbol"></span><span className="title">
+                 <h1>Reclaiming Pink</h1></span>
+                  </a>
 				</header>
 				<footer>
 				</footer>
